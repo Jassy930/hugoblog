@@ -27,7 +27,7 @@ updated: 2019-04-16 00:04:27
 
 实现思路上没啥可说的，就是动态规划的思路，从小到大依次遍历所有约数对应的```N-x```的值，所有约数全部为 true 的时候，这时无论先手做如何操作，对方都是必胜的情况，所以这时的 N 为 false ，其余所有情况均为 true ，只需要在每一步操作时将 N 的值变为对应的 false 的 ```N-x``` 的值即可。
 
-  <!-- more -->
+
 ### No.5030 [节点与其祖先之间的最大差值](https://leetcode-cn.com/contest/weekly-contest-132/problems/maximum-difference-between-node-and-ancestor/)
 
 一开始脑袋有点乱，想用 pair<int,int> 去实现同时寻找最大值最小值，但是思路一直没有理顺，抱着这次竞赛就放弃了的态度（。。。。）就想着先只写一个 max 吧，很快完成之后，同样的方法复制一份 min ，游戏结束。

@@ -27,7 +27,6 @@ let computer process or "understand" NL to perform tasks
 
 Fully understanding and representing the meaning of language is a difficult goal.
 
-  <!-- more -->
 ### NLP Levels
 
 speech     text

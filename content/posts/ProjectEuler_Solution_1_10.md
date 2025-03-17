@@ -29,7 +29,7 @@ int problem1()
 	return num;
 }
 ```
-  <!-- more -->
+
 ## [Problem 2:Even Fibonacci numbers](https://projecteuler.net/problem=2)
 
 把4000000以下的 fib 数列都求出来，再遍历一般累加奇数。

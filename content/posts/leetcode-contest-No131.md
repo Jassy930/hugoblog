@@ -21,7 +21,7 @@ updated: 2019-04-08 14:27:39
 
 一开始使用迭代器进行 string 的遍历，然后在测试的时候，有时候测试结果是正确的，有时候是 out of range，最后也没有发现是什么原因，就先去做剩下三个题了，回来之后改成循环数字下标就好了，可能是最后一个位置超出了 string 的长度，以后还是多用下标比较合适，除非循环内要做的工作比较简单。
 
-  <!-- more -->
+
 ### No.5017 [从根到叶的二进制数之和](https://leetcode-cn.com/contest/weekly-contest-131/problems/sum-of-root-to-leaf-binary-numbers/)
 
 一开始初始值给错了，没有大问题。
