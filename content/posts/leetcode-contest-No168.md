@@ -56,7 +56,7 @@ class Solution:
         return ans
 ```
 
-<!-- more -->
+
 
 ### No.5292 [划分数组为连续数字的集合](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 

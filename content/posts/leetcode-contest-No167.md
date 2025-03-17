@@ -66,7 +66,7 @@ class Solution:
         return ans
 ```
 
-<!-- more -->
+
 
 ### No.5124 [顺次数](https://leetcode-cn.com/problems/sequential-digits/)
 

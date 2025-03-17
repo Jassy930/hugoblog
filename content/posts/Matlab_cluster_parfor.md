@@ -30,7 +30,7 @@ Elapsed time is 0.000034 seconds.
 
 一个n x 1大小的随机数组，然后把其中每个数乘以二，下面就是改成parfor并行计算的
 
-<!-- more -->
+
 ``` matlab
 n = 1000;
 a = rand(n,1);

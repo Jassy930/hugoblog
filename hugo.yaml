@@ -7,8 +7,8 @@ languageCode: zh-CN
 
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
-buildExpired: false
+buildFuture: true
+buildExpired: true
 
 minify:
   disableXML: true
