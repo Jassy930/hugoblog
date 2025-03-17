@@ -1,5 +1,5 @@
 baseURL: "https://blog.jassy.wang/"
-title: 弱者
+title: Jassy
 pagination:
   pagerSize: 20
 theme: PaperMod
@@ -21,17 +21,19 @@ outputs:
     - JSON # necessary for search
 
 params:
+  math: true
+  comments: true
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 弱者
+  title: Jassy
   description: "Boring things"
-  keywords: [Blog, Portfolio, PaperMod]
+  # keywords: [Blog, Portfolio, PaperMod]
   author: Jassy
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["https://avatars.githubusercontent.com/u/25945557"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  math: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -43,7 +45,6 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -52,15 +53,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://avatars.githubusercontent.com/u/25945557"
+    favicon16x16: "https://avatars.githubusercontent.com/u/25945557"
+    favicon32x32: "https://avatars.githubusercontent.com/u/25945557"
+    apple_touch_icon: "https://avatars.githubusercontent.com/u/25945557"
+    safari_pinned_tab: "https://avatars.githubusercontent.com/u/25945557"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: "https://avatars.githubusercontent.com/u/25945557"
     iconHeight: 35
 
   # profile-mode
